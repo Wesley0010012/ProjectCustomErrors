@@ -1,0 +1,2 @@
+# StandardErrors
+Custom Application Errors
