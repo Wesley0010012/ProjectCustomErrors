@@ -37,3 +37,47 @@ The CustomError entity and its specializations provide access to:
 - **Timestamp**: The exact time when the error occurred.
 - **Error Origin**: The specific artifact where the error originated, or `"Unknown"` if it cannot be determined in certain cases.
 - **Error Details**: Additional details about the error, if provided during the throw.
+
+
+## Custom Errors
+
+This package includes the following custom errors:
+
+### Authentication Errors
+- `AuthenticationError` (Abstract)
+- `Unauthenticated`
+- `Unauthorized`
+
+### Domain Errors
+- `DomainError`
+
+### Entity Errors
+- `EntityError`
+
+### Internal Errors
+- `InternalError`
+
+### Parameter Errors
+- `ParamError` (Abstract)
+- `InvalidParamError`
+- `MissingParamError`
+
+### Runtime Errors
+- `NotFoundError`
+
+### Validation Errors
+- `ValidationError`
+
+## Error Status Codes
+
+Each error type is associated with a specific status code:
+
+| Code | Error Type             |
+|------|------------------------|
+| 0    | INTERNAL_ERROR         |
+| 1    | PARAM_ERROR            |
+| 2    | NOT_FOUND              |
+| 3    | DOMAIN_ERROR           |
+| 4    | AUTHENTICATION_ERROR   |
+| 5    | VALIDATION_ERROR       |
+| 6    | ENTITY_ERROR           |
