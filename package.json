@@ -13,14 +13,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wesley0010012/StandardErrors.git"
+    "url": "git+https://github.com/Wesley0010012/ProjectCustomErrors.git"
   },
   "author": "Wesley Gabriel Laurindo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Wesley0010012/StandardErrors/issues"
+    "url": "https://github.com/Wesley0010012/ProjectCustomErrors/issues"
   },
-  "homepage": "https://github.com/Wesley0010012/StandardErrors#readme",
+  "homepage": "https://github.com/Wesley0010012/ProjectCustomErrors#readme",
   "dependencies": {
     "tsc-alias": "^1.8.11"
   }
