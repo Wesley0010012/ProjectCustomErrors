@@ -1,0 +1,27 @@
+{
+  "name": "standard-errors",
+  "version": "1.0.0",
+  "description": "Standard Application Errors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wesley0010012/StandardErrors.git"
+  },
+  "author": "Wesley Gabriel Laurindo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wesley0010012/StandardErrors/issues"
+  },
+  "homepage": "https://github.com/Wesley0010012/StandardErrors#readme",
+  "dependencies": {
+    "tsc-alias": "^1.8.11"
+  }
+}
