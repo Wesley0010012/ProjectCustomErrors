@@ -1,5 +1,5 @@
 {
-  "name": "standarderrors",
+  "name": "standard-errors",
   "version": "1.0.0",
   "description": "Standard Application Errors",
   "main": "dist/index.js",
