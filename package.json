@@ -1,7 +1,7 @@
 {
-  "name": "standard-errors",
+  "name": "project-custom-errors",
   "version": "1.0.0",
-  "description": "Standard Application Errors",
+  "description": "Project Custom Standard Application Errors",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
