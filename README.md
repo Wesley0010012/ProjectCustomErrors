@@ -1,6 +1,6 @@
-# StandardErrors
+# ProjectCustomErrors
 
-StandardErrors is a package designed to define custom and default application errors for general use in software development.
+ProjectCustomErrors is a package designed to define custom and default application errors for general use in software development.
 
 ## Installation
 
