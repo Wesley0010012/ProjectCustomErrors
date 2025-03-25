@@ -21,7 +21,7 @@
     "url": "https://github.com/Wesley0010012/ProjectCustomErrors/issues"
   },
   "homepage": "https://github.com/Wesley0010012/ProjectCustomErrors#readme",
-  "dependencies": {
+  "devDependencies": {
     "tsc-alias": "^1.8.11"
   }
 }
